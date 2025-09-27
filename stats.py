@@ -31,5 +31,3 @@ def sorted_char_counts(char_counts):
     items = to_list_of_dicts(char_counts)
     items.sort(key=sort_on, reverse=True)
     return items
-    print(items)
-    
